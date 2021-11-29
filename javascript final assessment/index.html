@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <title>Application Form</title>
+        <link rel="stylesheet" href="style/css.css">
+        <script src="script/scriptfile.js"></script>
+    </head>
+    <body>
+        <h2>Personal Information</h2>
+        <form  >
+            <p>Name as per ID proof*</p>
+            <input type="text" id="name"><br>
+            <p>Father's Name*</p>
+            <input type="text" id="fathername"><br>
+            <p>Email*</p>
+            <input type="text" id="mail"><br>
+            <p>Date Of Birth*</p>
+            <input type="date" id="dob"><br>
+            <p>Mobile No*</p>
+            <input type="text" id="mobilenumber"><br>
+            <p>Current Address*</p>
+            <input type="text" id="currentaddress" placeholder="address line 1"><br><br>
+            <input type="text" id="currentaddress" placeholder="address line 2"><br><br>
+            <input type="text" id="city" placeholder="city"><br><br>
+            <select  id="state">
+                <option value="">TamilNadu</option>
+                <option value="">Kerala</option>
+                <option value="">Andhraapradhesh</option>
+                <option value="">Karnataka</option>
+            </select><br><br>
+            <input type="text" id="pincode" placeholder="pincode"><br>
+            <p>Permanent Address</p>
+            <input type="text" id="permanentaddress" placeholder="address line 1"><br><br>
+            <input type="text" id="permanentaddress" placeholder="address line 2"><br><br>
+            <input type="text" id="city" placeholder="city"><br><br>
+            <select  id="state">
+                <option value="">TamilNadu</option>
+                <option value="">Kerala</option>
+                <option value="">Andhraapradhesh</option>
+                <option value="">Karnataka</option>
+            </select><br><br>
+            <input type="text" id="pincode" placeholder="pincode"><br>
+            <p>Upload your profile photo*(JPG or PNG format only)</p>
+            <input type="file" id="photo"><br><br>
+            <input type="button"  id="next" name="submit" onclick="validate()" value="submit">
+        </form>
+    </body>
+</html>
